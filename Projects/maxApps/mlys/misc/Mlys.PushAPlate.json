@@ -1,0 +1,47 @@
+{
+	"pattrstorage" : 	{
+		"name" : "Fma.PushAPlate",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"AudioOutputGain" : [ 0.0 ],
+					"AudioRecord" : [ 0.0 ],
+					"AudioSetup" : [ 0.0 ],
+					"ClueWindow" : [ 0.0 ],
+					"ForceAmp" : [ 80.0 ],
+					"ForcePosX" : [ 35.0 ],
+					"ForcePosY" : [ 65.0 ],
+					"ForceSmooth" : [ 100.0 ],
+					"ForceWeight" : [ 100.0 ],
+					"Overview" : [ 0.0 ],
+					"PickupLPosX" : [ 25.0 ],
+					"PickupLPosY" : [ 75.0 ],
+					"PickupRPosX" : [ 75.0 ],
+					"PickupRPosY" : [ 25.0 ],
+					"PickupSmooth" : [ 100.0 ],
+					"PlateBrightness" : [ 50.0 ],
+					"PlateDamping" : [ 50.0 ],
+					"PlateDetune" : [ 0.0 ],
+					"PlateKeybOctave" : [ 3.0 ],
+					"PlateModes" : [ 80.0 ],
+					"PlatePitch" : [ 48.0 ],
+					"ResetAll" : [ 0.0 ],
+					"Fma.SoundPlayer~::File" : [ "drumLoop.aif" ],
+					"Fma.SoundPlayer~::Index" : [ 3 ],
+					"Fma.SoundPlayer~::Beg" : [ 0.0 ],
+					"Fma.SoundPlayer~::End" : [ 3478.435547 ],
+					"Fma.SoundPlayer~::Folder" : [ 0.0 ],
+					"Fma.SoundPlayer~::Gain" : [ 0.0 ],
+					"Fma.SoundPlayer~::Loop" : [ 1.0 ],
+					"Fma.SoundPlayer~::Play" : [ 1.0 ],
+					"Fma.SoundPlayer~::Transp" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -1,0 +1,25 @@
+{
+	"pattrstorage" : 	{
+		"name" : "gf0-presets",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"samplePath" : [ 0 ],
+					"grainsSize" : [ 258.0 ],
+					"mute" : [ 1 ],
+					"ngrains" : [ 8 ],
+					"pitch-offset" : [ 0.0 ],
+					"posFunc" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
+					"posFunc-offset" : [ 36.0 ],
+					"posFunc-scaleHigh" : [ 1.0 ],
+					"posFunc-scaleLow" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

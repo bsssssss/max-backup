@@ -1,0 +1,49 @@
+{
+	"pattrstorage" : 	{
+		"name" : "Fma.BlowInATube",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"AudioOutputGain" : [ 0.0 ],
+					"AudioRecord" : [ 0.0 ],
+					"AudioSetup" : [ 0.0 ],
+					"ClueWindow" : [ 0.0 ],
+					"Overview" : [ 0.0 ],
+					"PickupPosL" : [ 25.0 ],
+					"PickupPosR" : [ 75.0 ],
+					"PickupSmooth" : [ 100.0 ],
+					"ReedPos" : [ 0.0 ],
+					"ReedSmooth" : [ 100.0 ],
+					"ReedWeight" : [ 100.0 ],
+					"ResetAll" : [ 0.0 ],
+					"TubeBrightness" : [ 50.0 ],
+					"TubeDamping" : [ 50.0 ],
+					"TubeDetune" : [ 0.0 ],
+					"TubeKeybOctave" : [ 2.0 ],
+					"TubeModes" : [ 80.0 ],
+					"TubePitch" : [ 36.0 ],
+					"TubeRadius0" : [ 1.0 ],
+					"TubeRadius1" : [ 1.0 ],
+					"Fma.SignalMapper~::Compand" : [ 0.25 ],
+					"Fma.SignalMapper~::Drive" : [ 0.0 ],
+					"Fma.SignalMapper~::Enable" : [ 1.0 ],
+					"Fma.SignalMapper~::Gain" : [ 0.0 ],
+					"Fma.SignalMapper~::Invert" : [ 0.0 ],
+					"Fma.SignalMapper~::OutMax" : [ 0.0 ],
+					"Fma.SignalMapper~::OutMin" : [ 200.000198 ],
+					"Fma.SignalMapper~::Smooth" : [ 250.0 ],
+					"Fma.LFO~::Enable" : [ 1.0 ],
+					"Fma.LFO~::Freq" : [ 5.0 ],
+					"Fma.LFO~::Note" : [ 13.0 ],
+					"Fma.LFO~::Waveform" : [ 5.0 ],
+					"Fma.LFO~::Mode" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

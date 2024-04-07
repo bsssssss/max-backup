@@ -1,0 +1,24 @@
+{
+	"pattrstorage" : 	{
+		"name" : "kits0-preset",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"input" : [ 1 ],
+					"messageFrom-1" : [ "" ],
+					"bs.TRKits::TRKits-folder[1]" : [ "mars" ],
+					"bs.TRKits::TRKits-kit" : [ "606kit1" ],
+					"bs.TRKits::ampdb" : [ 0.0 ],
+					"bs.TRKits::duration" : [ 500.0 ],
+					"bs.TRKits::pitch" : [ 0.0 ],
+					"bs.TRKits::sample-offset" : [ 0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

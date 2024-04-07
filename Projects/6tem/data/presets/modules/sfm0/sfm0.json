@@ -1,0 +1,25 @@
+{
+	"pattrstorage" : 	{
+		"name" : "sfm0",
+		"slots" : 		{
+			"256" : 			{
+				"id" : 256,
+				"data" : 				{
+					"function" : [  ],
+					"function[1]" : [  ],
+					"live.dial" : [ 0.0 ],
+					"number" : [  ],
+					"number[1]" : [ 0.0 ],
+					"number[2]" : [ 0.0 ],
+					"number[3]" : [ 0.0 ],
+					"number[4]" : [ 0.0 ],
+					"number[5]" : [  ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

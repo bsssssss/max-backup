@@ -1,0 +1,26 @@
+{
+	"pattrstorage" : 	{
+		"name" : "scaleBrain-presets",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"base" : [ 36.0 ],
+					"degree1" : [ 36.0 ],
+					"degree2" : [ 38.0 ],
+					"degree3" : [ 40.0 ],
+					"degree4" : [ 41.0 ],
+					"degree5" : [ 43.0 ],
+					"degree6" : [ 45.0 ],
+					"degree7" : [ 47.0 ],
+					"degree8" : [ 0.0 ],
+					"edo" : [ 12.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

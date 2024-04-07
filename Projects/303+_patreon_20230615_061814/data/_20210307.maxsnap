@@ -1,0 +1,73 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "Default",
+	"origin" : "74a09b97-f360-11ea-9b97-34363bd3ed8c",
+	"type" : "rnbo",
+	"subtype" : "",
+	"embed" : 1,
+	"snapshot" : 	{
+		"__sps" : 		{
+			"CombR~" : 			{
+
+			}
+,
+			"CombL~" : 			{
+
+			}
+,
+			"RoomB~" : 			{
+
+			}
+,
+			"Mix~" : 			{
+
+			}
+,
+			"Blur~" : 			{
+
+			}
+,
+			"Shuffle~" : 			{
+
+			}
+,
+			"Damp~" : 			{
+
+			}
+,
+			"RoomA~" : 			{
+
+			}
+
+		}
+,
+		"diff" : 		{
+			"value" : 55.0
+		}
+,
+		"size" : 		{
+			"value" : 80.0
+		}
+,
+		"decay" : 		{
+			"value" : 46.0
+		}
+,
+		"damp" : 		{
+			"value" : 6.0
+		}
+,
+		"jitter" : 		{
+			"value" : 44.0
+		}
+,
+		"mix" : 		{
+			"value" : 41.0
+		}
+,
+		"__presetid" : "74a09b97-f360-11ea-9b97-34363bd3ed8c"
+	}
+
+}

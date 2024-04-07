@@ -1,0 +1,24 @@
+{
+	"pattrstorage" : 	{
+		"name" : "2op0-preset",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"amp(db)" : [ -6.0 ],
+					"ampEnv-tilt" : [ 0.0 ],
+					"modEnv-tilt" : [ 0.0 ],
+					"modEnv-durMul" : [ 0.5 ],
+					"op1-ratio" : [ 1.0 ],
+					"op2-ratio" : [ 1.0 ],
+					"op1mod-index" : [ 1.0 ],
+					"messFrom-receive::messageFrom-1" : [ "" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

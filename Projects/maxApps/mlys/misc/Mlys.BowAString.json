@@ -1,0 +1,60 @@
+{
+	"pattrstorage" : 	{
+		"name" : "Mlys.BowAString",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"AudioOutputGain" : [ 0.0 ],
+					"AudioRecord" : [ 0.0 ],
+					"AudioSetup" : [ 0.0 ],
+					"BowDamping" : [ 50.0 ],
+					"BowFreqLoss" : [ 50.0 ],
+					"BowLargeMass" : [ 5.0 ],
+					"BowSmallMass" : [ 5.0 ],
+					"BowStiffness" : [ 60.0 ],
+					"BowingPosH" : [ 35.0 ],
+					"BowingPosV" : [ 35.0 ],
+					"BowingRosinCurvature" : [ 45.0 ],
+					"BowingRosinForce1" : [ 4.0 ],
+					"BowingRosinForce2" : [ 1.0 ],
+					"BowingSmooth" : [ 100.0 ],
+					"BowingSpeed" : [ 50.0 ],
+					"BowingWeight" : [ 100.0 ],
+					"PickupPosL" : [ 25.0 ],
+					"PickupPosR" : [ 75.0 ],
+					"PickupSmooth" : [ 100.0 ],
+					"ResetAll" : [ 0.0 ],
+					"StringBrightness" : [ 50.0 ],
+					"StringDamping" : [ 50.0 ],
+					"StringDetune" : [ 0.0 ],
+					"StringInharm" : [ 0.0 ],
+					"StringKeybOctave" : [ 3.0 ],
+					"StringMaterial" : [ 0.0 ],
+					"StringModes" : [ 80.0 ],
+					"StringPitch" : [ 48.0 ],
+					"Fma.SignalMapper~::Compand" : [ 0.1 ],
+					"Fma.SignalMapper~::Drive" : [ -0.1 ],
+					"Fma.SignalMapper~::Enable" : [ 1.0 ],
+					"Fma.SignalMapper~::Gain" : [ 0.0 ],
+					"Fma.SignalMapper~::Invert" : [ 0.0 ],
+					"Fma.SignalMapper~::OutMax" : [ -0.039996 ],
+					"Fma.SignalMapper~::OutMin" : [ 0.039996 ],
+					"Fma.SignalMapper~::Smooth" : [ 0.0 ],
+					"Fma.LFO~::Enable" : [ 1.0 ],
+					"Fma.LFO~::Freq" : [ 5.0 ],
+					"Fma.LFO~::Mult" : [ 1.0 ],
+					"Fma.LFO~::Note" : [ 13.0 ],
+					"Fma.LFO~::Phase" : [ 0.0 ],
+					"Fma.LFO~::ResetPhase" : [ 0.0 ],
+					"Fma.LFO~::Waveform" : [ 5.0 ],
+					"Fma.LFO~::Mode" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

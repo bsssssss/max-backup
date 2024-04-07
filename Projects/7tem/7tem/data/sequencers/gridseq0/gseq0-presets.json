@@ -1,0 +1,45 @@
+{
+	"pattrstorage" : 	{
+		"name" : "gseq0-presets",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"gseq0-routeMessage-matrix" : [ 0, 0, 1.0, 1, 1, 1.0, 2, 2, 1.0, 3, 3, 1.0 ],
+					"gateSeq1::gseq0-note1" : [ 0.0 ],
+					"gateSeq1::rhythm-mode" : [ 1.0 ],
+					"gateSeq1::nsteps" : [ 16 ],
+					"gateSeq1::div" : [ 4.0 ],
+					"gateSeq1::gseq0-gridseq1::stepgrid" : [ 3, 16, 1, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
+					"gateSeq1::gseq0-gridseq1::stepgrid-editstate" : [ 0.0 ],
+					"gateSeq1::gseq0-gridseq1::stepgrid-steps" : [ 16.0 ],
+					"gateSeq2::gseq0-note1" : [ 0.0 ],
+					"gateSeq2::rhythm-mode" : [ 1.0 ],
+					"gateSeq2::div" : [ 4.0 ],
+					"gateSeq2::nsteps" : [ 16 ],
+					"gateSeq2::gseq0-gridseq1::stepgrid" : [ 3, 16, 1, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
+					"gateSeq2::gseq0-gridseq1::stepgrid-editstate" : [ 0.0 ],
+					"gateSeq2::gseq0-gridseq1::stepgrid-steps" : [ 16.0 ],
+					"gateSeq3::gseq0-note1" : [ 0.0 ],
+					"gateSeq3::rhythm-mode" : [ 1.0 ],
+					"gateSeq3::div" : [ 4.0 ],
+					"gateSeq3::nsteps" : [ 16 ],
+					"gateSeq3::gseq0-gridseq1::stepgrid" : [ 3, 16, 1, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
+					"gateSeq3::gseq0-gridseq1::stepgrid-editstate" : [ 0.0 ],
+					"gateSeq3::gseq0-gridseq1::stepgrid-steps" : [ 16.0 ],
+					"gateSeq4::gseq0-note1" : [ 0.0 ],
+					"gateSeq4::rhythm-mode" : [ 1.0 ],
+					"gateSeq4::div" : [ 4.0 ],
+					"gateSeq4::nsteps" : [ 16 ],
+					"gateSeq4::gseq0-gridseq1::stepgrid" : [ 3, 16, 1, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
+					"gateSeq4::gseq0-gridseq1::stepgrid-editstate" : [ 0.0 ],
+					"gateSeq4::gseq0-gridseq1::stepgrid-steps" : [ 16.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

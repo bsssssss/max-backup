@@ -1,0 +1,35 @@
+{
+	"pattrstorage" : 	{
+		"name" : "eseq0",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"D" : [ 16 ],
+					"K" : [ 16 ],
+					"N" : [ 16 ],
+					"S" : [ 0 ],
+					"copyfrom-follow" : [ 0.0 ],
+					"copyfrom-menu" : [ "" ],
+					"duration1" : [ 500.0 ],
+					"function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
+					"gridstep_x" : [ 8.0 ],
+					"gridstep_y" : [ 8.0 ],
+					"loop" : [ 0.0 ],
+					"note1" : [ 0 ],
+					"reset-bar" : [ 1.0 ],
+					"snap" : [ 3.0 ],
+					"timescale" : [ 1.0 ],
+					"trigOut" : [ 1 ],
+					"gseq1::stepgrid" : [ 3, 16, 1, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
+					"gseq1::stepgrid-editstate" : [ 0.0 ],
+					"gseq1::stepgrid-steps" : [ 16.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

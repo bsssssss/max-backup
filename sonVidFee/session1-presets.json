@@ -1,0 +1,27 @@
+{
+	"pattrstorage" : 	{
+		"name" : "session1-presets",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"OSC_video_control_v2[2]::opname" : [  ],
+					"OSC_video_control_v2[2]::parid" : [  ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"OSC_video_control_v2[2]::opname" : [  ],
+					"OSC_video_control_v2[2]::parid" : [  ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

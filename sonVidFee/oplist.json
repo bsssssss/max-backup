@@ -1,0 +1,3 @@
+{
+	"matrixosc_sender" : [ "P1ccsendmtx", "K1ccnoiseseed", "P2ccrandscale", "P3ccranddir" ]
+}

@@ -1,0 +1,7 @@
+1, Ionian "2 2 1 2 2 2 1";
+2, Dorian "2 1 2 2 2 1 2";
+3, Phrygian "1 2 2 2 1 2 2";
+4, Lydian "2 2 2 1 2 2 1";
+5, Mixolydian "2 2 1 2 2 1 2";
+6, Aeolian "2 1 2 2 1 2 2";
+7, Locrian "1 2 2 1 2 2 2";

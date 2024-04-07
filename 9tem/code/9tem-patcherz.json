@@ -1,0 +1,6 @@
+{
+    "synths": {
+        "inputs": "bs.BH-inputs.maxpat",
+        "td-sine": "9t.tdSine"
+    }
+}

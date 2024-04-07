@@ -1,0 +1,55 @@
+{
+	"pattrstorage" : 	{
+		"name" : "Fma.StrikeAPlate",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"AudioOutputGain" : [ 0.0 ],
+					"AudioRecord" : [ 0.0 ],
+					"AudioSetup" : [ 0.0 ],
+					"ClueWindow" : [ 0.0 ],
+					"HammerDamping" : [ 0.0 ],
+					"HammerFreqLoss" : [ 50.0 ],
+					"HammerLargeMass" : [ 500.0 ],
+					"HammerSmallMass" : [ 500.0 ],
+					"HammerStiffness" : [ 70.0 ],
+					"Overview" : [ 0.0 ],
+					"PickupLPosX" : [ 25.0 ],
+					"PickupLPosY" : [ 75.0 ],
+					"PickupRPosX" : [ 75.0 ],
+					"PickupRPosY" : [ 25.0 ],
+					"PickupSmooth" : [ 100.0 ],
+					"PlateBrightness" : [ 50.0 ],
+					"PlateDamping" : [ 50.0 ],
+					"PlateDetune" : [ 0.0 ],
+					"PlateKeybOctave" : [ 3.0 ],
+					"PlateModes" : [ 80.0 ],
+					"PlatePitch" : [ 60.0 ],
+					"ResetAll" : [ 0.0 ],
+					"StrikePosX" : [ 50.0 ],
+					"StrikePosY" : [ 50.0 ],
+					"StrikeSmooth" : [ 100.0 ],
+					"StrikeWeight" : [ 100.0 ],
+					"Fma.SignalMapper~::Compand" : [ 0.0 ],
+					"Fma.SignalMapper~::Drive" : [ 0.0 ],
+					"Fma.SignalMapper~::Enable" : [ 1.0 ],
+					"Fma.SignalMapper~::Gain" : [ 0.0 ],
+					"Fma.SignalMapper~::Invert" : [ 0.0 ],
+					"Fma.SignalMapper~::OutMax" : [ -0.09999 ],
+					"Fma.SignalMapper~::OutMin" : [ 0.09999 ],
+					"Fma.SignalMapper~::Smooth" : [ 0.0 ],
+					"Fma.LFO~::Enable" : [ 1.0 ],
+					"Fma.LFO~::Freq" : [ 50.0 ],
+					"Fma.LFO~::Note" : [ 13.0 ],
+					"Fma.LFO~::Waveform" : [ 5.0 ],
+					"Fma.LFO~::Mode" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

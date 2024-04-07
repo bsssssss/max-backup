@@ -1,0 +1,23 @@
+# MIMS script file
+# Script author: {yourname}
+
+@stringK param 0.01
+@stringZ param 0.001
+@damperK param 0.1 
+@damperZ param 0.002
+@pluckPos param 0.5
+@listenPos1 param 0.25
+@listenPos2 param 0.33
+
+@in1 posInput 0.
+
+@m1 mass 1. 0. 0.
+@s1 string 100 1. stringK stringZ 0. 0.
+@sp1 springDamper @m1 [@s1 0.5] damperK damperZ
+
+@nlp nlPluck @in1 [@s1 pluckPos] 0.1 0.001
+
+@out1 posOutput [@s1 listenPos1]
+@out2 posOutput [@s1 listenPos2]
+
+# end of MIMS script

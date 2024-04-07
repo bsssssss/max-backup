@@ -1,0 +1,19 @@
+# MIMS script file
+# Script author: {yourname}
+
+@sM param 1.
+@sK param 0.5
+@sZ param 0.1
+
+@mic1 param 0.9
+@mic2 param 0.91
+
+@nlpK param 1.5
+@nlpScale param 0.05
+
+
+
+@s stiffString 120 sM sK 0.2000 sZ 0.0000 0.0000@g ground -0.2000@m mass 100000 0.0000 0.0000# First input is pick second is fret finger height@in1 posInput 0.0000@in3 posInput 0.0000# Audio-rate parameter for fret position@slide audioParam @in2@fK param 0.7000@fZ param 0.0500# The mass that will press down on the string@spm springDamper @in3 @m 10000 10000# Finger on string contacts@fs1 contact [@s slide] @m fK 0.0000@fs2 contact [@s slide-0.01] @m fK 0.0000# String on fretboard contacts@sb1 contact @g [@s slide] fK 0@sb2 contact @g [@s slide-0.01] fK 0.0000# Damping contacts behind finger@d1 contact [@s slide-0.04] @m 0.2000 fZ@d2 contact [@s slide-0.03] @m 0.2000 fZ@d3 contact [@s slide-0.1] @m 0.0200 fZ@d4 contact [@s slide-0.2] @m 0.0200 fZ@pl nlPluck @in1 [@s 0.9] nlpK nlpScale@out1 posOutput [@s mic1]@out2 posOutput [@s mic2]
+
+
+# end of MIMS script

@@ -1,0 +1,1 @@
+{'opname': 'instancingshapes1_v1_1' 'params': ['K1ccinstnum' 'K2ccuscale' 'K3ccspdrx' 'K4ccspdry' 'K5ccbordw' 'B5ccwhiteborder' 'K6ccfillalpha' 'B6ccextin' 'K7ccshufflepos' 'P7ccshufflepos' 'K9ccshufflesize' 'B9ccshufflesize']} 

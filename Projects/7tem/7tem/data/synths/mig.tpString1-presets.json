@@ -1,0 +1,22 @@
+{
+	"pattrstorage" : 	{
+		"name" : "mig.tpString1-presets",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"fret-K" : [ 0.09 ],
+					"fret-Z" : [ 0.3 ],
+					"nlPluck-scale" : [ 1.9 ],
+					"nlPluck-K" : [ 0.19 ],
+					"string-K" : [ 0.333 ],
+					"pitch-correction" : [ 1.0134 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

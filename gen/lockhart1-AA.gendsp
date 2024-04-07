@@ -1,0 +1,132 @@
+{
+	"patcher" : 	{
+		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 1,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "dsp.gen",
+		"rect" : [ 970.0, 66.0, 758.0, 711.0 ],
+		"bglocked" : 0,
+		"openinpresentation" : 0,
+		"default_fontsize" : 12.0,
+		"default_fontface" : 0,
+		"default_fontname" : "Arial",
+		"gridonopen" : 1,
+		"gridsize" : [ 15.0, 15.0 ],
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
+		"statusbarvisible" : 2,
+		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 15,
+		"tallnewobj" : 0,
+		"boxanimatetime" : 200,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
+		"style" : "myStyle",
+		"subpatcher_template" : "myTemplate",
+		"assistshowspatchername" : 0,
+		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 50.0, 608.0, 35.0, 22.0 ],
+					"text" : "out 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"code" : "/*ATNIALIASED LOCKHART WAVEFOLDER*/\r\n\r\n// Custom Lambert-W Function\r\nLambert_W(x,Ln1) {\r\n\r\n// Error threshold\r\nthresh = 10e-10;\r\n// Initial guess (use previous value)\r\nw = Ln1;\n\n    // Haley's method (Sec. 4.2 of the paper)\n\tfor(i=0; i<1000; i+=1) {\r\n\t\t\n        expw = pow(e,w);\r\n\n        p = w*expw - x;\n        r = (w+1)*expw;\n        s = (w+2)/(2*(w+1));        err = (p/(r-(p*s)));\r\n    \t\r\n\t\tif (abs(err)<thresh) {\n    \t\tbreak;\n\t\t}\r\n\t\t\r\n\t\tw = w - err;\r\n\t}\r\n\r\n\treturn w;\r\n}\r\n\r\n// Declare previous state\r\nHistory Ln1;\r\nHistory Fn1;\r\nHistory xn1;\r\n\r\n// Constants\r\nRL = 7.5e3;\r\n R = 15e3;  \nVT = 26e-3;\nIs = 10e-16;\r\n\r\na = 2*RL/R;\r\nb = (R+2*RL)/(VT*R);\r\nd = (RL*Is)/VT;\r\n\r\n// Antialiasing error threshold\r\nthresh = 10e-10;\r\n\r\n// Compute Antiderivative\r\nl = sign(in1); \r\nu = d*pow(e,l*b*in1);\r\nLn = Lambert_W(u,Ln1);\r\nFn = (0.5*VT/b)*(Ln*(Ln + 2)) - 0.5*a*in1*in1;\r\n\r\n// Check for ill-conditioning\r\nif (abs(in1-xn1)<thresh) {\r\n\t\t\r\n\t// Compute Averaged Wavefolder Output\r\n\txn = 0.5*(in1+xn1);\r\n\tu = d*pow(e,l*b*xn);\n\tLn = Lambert_W(u,Ln1);\n\tout1 = l*VT*Ln - a*xn;\r\n\r\n}\r\nelse {\r\n\t\r\n\t// Apply AA Form\n\tout1 = (Fn-Fn1)/(in1-xn1);\r\n\t\r\n}\r\n\r\n// Update States\r\nLn1 = Ln;\r\nFn1 = Fn;\r\nxn1 = in1;\r\n",
+					"fontface" : 0,
+					"fontname" : "<Monospaced>",
+					"fontsize" : 12.0,
+					"id" : "obj-5",
+					"maxclass" : "codebox",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 50.0, 132.0, 519.0, 449.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 50.0, 65.0, 28.0, 22.0 ],
+					"text" : "in 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 176.0, 418.0, 35.0, 22.0 ],
+					"text" : "out 1"
+				}
+
+			}
+ ],
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+ ],
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "myStyle",
+				"default" : 				{
+					"accentcolor" : [ 0.262745098039216, 0.247058823529412, 0.247058823529412, 1.0 ],
+					"bgfillcolor" : 					{
+						"angle" : 270.0,
+						"autogradient" : 0.0,
+						"color" : [ 0.215686274509804, 0.203921568627451, 0.203921568627451, 1.0 ],
+						"color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+						"color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+						"proportion" : 0.5,
+						"type" : "color"
+					}
+,
+					"editing_bgcolor" : [ 0.12156862745098, 0.113725490196078, 0.113725490196078, 1.0 ],
+					"locked_bgcolor" : [ 0.117647058823529, 0.109803921568627, 0.109803921568627, 1.0 ],
+					"textcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
+	}
+
+}

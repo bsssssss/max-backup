@@ -1,0 +1,48 @@
+{
+	"pattrstorage" : 	{
+		"name" : "Mlys.Polyphony",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"AudioOutputGain" : [ -12.0 ],
+					"AudioRecord" : [ 0.0 ],
+					"AudioSetup" : [ 0.0 ],
+					"HammerFreqLoss" : [ 0.0 ],
+					"HammerLargeMass" : [ 250.0 ],
+					"HammerSmallMass" : [ 50.0 ],
+					"HammerStiffness" : [ 65.0 ],
+					"Length" : [ 10000.0 ],
+					"PickupLPosX" : [ 25.0 ],
+					"PickupLPosY" : [ 25.0 ],
+					"PickupRPosX" : [ 75.0 ],
+					"PickupRPosY" : [ 25.0 ],
+					"PickupSmooth" : [ 100.0 ],
+					"PlateBrightness" : [ 50.0 ],
+					"PlateDamping" : [ 50.0 ],
+					"PlateModes" : [ 80.0 ],
+					"ResetAll" : [ 0.0 ],
+					"Sense" : [ 0.0 ],
+					"StrikeJitterAmount" : [ 10.0 ],
+					"StrikeJitterEnable" : [ 1.0 ],
+					"StrikePosX" : [ 50.0 ],
+					"StrikePosY" : [ 75.0 ],
+					"StrikeSmooth" : [ 100.0 ],
+					"Fma.MidiNotePlayer::StepSeq" : [ 1, 16, 16, 1, 12, 0, 16, 47.900002, 87.099998, 4, 0, 48, 100, 4, 90, 16, 51, 100, 4, 90, 16, 52, 100, 4, 90, 16, 55, 100, 4, 90, 16, 56, 100, 4, 90, 16, 57, 100, 4, 90, 16, 60, 100, 4, 90, 16, 63, 100, 4, 90, 16, 64, 100, 4, 90, 16, 67, 100, 4, 90, 16, 68, 100, 4, 90, 16, 69, 100, 4, 90, 16, 72, 100, 4, 90, 16, 75, 100, 4, 90, 16, 76, 100, 4, 90, 16, 79, 100, 4, 90, 16, 48, 51, 52, 55, 56, 57, 60, 63, 64, 67, 68, 69, 72, 75, 76, 79 ],
+					"Fma.MidiNotePlayer::EditingMode" : [ 0.0 ],
+					"Fma.MidiNotePlayer::Fold" : [ 0.0 ],
+					"Fma.MidiNotePlayer::Interval" : [ 7.0 ],
+					"Fma.MidiNotePlayer::Note" : [ 0.0 ],
+					"Fma.MidiNotePlayer::Play" : [ 0.0 ],
+					"Fma.MidiNotePlayer::Steps" : [ 16.0 ],
+					"Fma.MidiNotePlayer::Transform" : [ 8.0 ],
+					"Fma.MidiNotePlayer::Direction" : [ 4.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

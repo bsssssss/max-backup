@@ -1,0 +1,59 @@
+{
+	"pattrstorage" : 	{
+		"name" : "Mlys.PlayChords",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"AudioOutputGain" : [ -11.867394 ],
+					"AudioRecord" : [ 0.0 ],
+					"AudioSetup" : [ 0.0 ],
+					"Brightness" : [ 60.0 ],
+					"Damping" : [ 40.0 ],
+					"Detune[1]" : [ 0.0 ],
+					"Detune[2]" : [ 0.0 ],
+					"Detune[3]" : [ 0.0 ],
+					"Detune[4]" : [ 0.0 ],
+					"ExciteRandEnable" : [ 1.0 ],
+					"ExciteRandRate" : [ 5000.0 ],
+					"ExciteSmooth" : [ 100.0 ],
+					"Excite[1]" : [ 72.0 ],
+					"Excite[2]" : [ 61.0 ],
+					"Excite[3]" : [ 62.0 ],
+					"Excite[4]" : [ 3.0 ],
+					"Gain[1]" : [ -6.0 ],
+					"Gain[2]" : [ -6.0 ],
+					"Gain[3]" : [ -6.0 ],
+					"Gain[4]" : [ -6.0 ],
+					"Modes" : [ 80.0 ],
+					"Pan[1]" : [ -30.0 ],
+					"Pan[2]" : [ -10.0 ],
+					"Pan[3]" : [ 10.0 ],
+					"Pan[4]" : [ 30.0 ],
+					"PickupRandEnable" : [ 1.0 ],
+					"PickupRandRate" : [ 5000.0 ],
+					"PickupSmooth" : [ 100.0 ],
+					"Pickup[1]" : [ 16.0 ],
+					"Pickup[2]" : [ 71.0 ],
+					"Pickup[3]" : [ 91.0 ],
+					"Pickup[4]" : [ 25.0 ],
+					"Pitch[1]" : [ 39.0 ],
+					"Pitch[2]" : [ 55.0 ],
+					"Pitch[3]" : [ 60.0 ],
+					"Pitch[4]" : [ 64.0 ],
+					"ResetAll" : [ 0.0 ],
+					"Fma.SoundPlayer~::Folder" : [ "./examples/sounds" ],
+					"Fma.SoundPlayer~::File" : [ "jongly.aif" ],
+					"Fma.SoundPlayer~::Gain" : [ 0.0 ],
+					"Fma.SoundPlayer~::Loop" : [ 1.0 ],
+					"Fma.SoundPlayer~::Play" : [ 1.0 ],
+					"Fma.SoundPlayer~::Transp" : [ -200.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
