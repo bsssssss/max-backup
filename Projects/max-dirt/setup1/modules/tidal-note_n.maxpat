@@ -35,7 +35,7 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
-		"style" : "myStyle",
+		"style" : "default",
 		"subpatcher_template" : "Blacko",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
@@ -46,6 +46,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 62.0, 200.0, 45.0, 20.0 ],
+					"style" : "default",
 					"text" : "ftom 0."
 				}
 
@@ -57,7 +58,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "int" ],
-					"patching_rect" : [ 62.0, 125.0, 88.0, 20.0 ],
+					"patching_rect" : [ 62.0, 125.0, 88.0, 23.0 ],
+					"style" : "default",
 					"text" : "check&set freq"
 				}
 
@@ -70,6 +72,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 152.0, 224.0, 36.0, 20.0 ],
+					"style" : "default",
 					"text" : "+ 12."
 				}
 
@@ -81,8 +84,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "int" ],
-					"patching_rect" : [ 245.0, 125.0, 83.0, 20.0 ],
-					"text" : "dirt-param n 0"
+					"patching_rect" : [ 257.0, 126.5, 84.0, 20.0 ],
+					"style" : "default",
+					"text" : "check&set n 0"
 				}
 
 			}
@@ -93,7 +97,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "int" ],
-					"patching_rect" : [ 152.0, 125.0, 91.0, 20.0 ],
+					"patching_rect" : [ 152.0, 125.0, 91.0, 23.0 ],
+					"style" : "default",
 					"text" : "check&set note"
 				}
 
@@ -105,7 +110,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 152.0, 200.0, 220.0, 20.0 ],
+					"patching_rect" : [ 152.0, 200.0, 221.0, 20.0 ],
+					"style" : "default",
 					"text" : "+ 0."
 				}
 
@@ -118,6 +124,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 353.0, 151.0, 80.0, 20.0 ],
+					"style" : "default",
 					"text" : "expr 12. * $f1"
 				}
 
@@ -129,7 +136,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "int" ],
-					"patching_rect" : [ 353.0, 125.0, 112.0, 20.0 ],
+					"patching_rect" : [ 353.0, 125.0, 112.0, 23.0 ],
+					"style" : "default",
 					"text" : "dirt-param octave 4"
 				}
 
@@ -289,7 +297,40 @@
 				"parentstyle" : "",
 				"multi" : 0
 			}
- ]
+, 			{
+				"name" : "rnbodefault",
+				"default" : 				{
+					"accentcolor" : [ 0.343034118413925, 0.506230533123016, 0.86220508813858, 1.0 ],
+					"bgcolor" : [ 0.031372549019608, 0.125490196078431, 0.211764705882353, 1.0 ],
+					"bgfillcolor" : 					{
+						"angle" : 270.0,
+						"autogradient" : 0.0,
+						"color" : [ 0.031372549019608, 0.125490196078431, 0.211764705882353, 1.0 ],
+						"color1" : [ 0.031372549019608, 0.125490196078431, 0.211764705882353, 1.0 ],
+						"color2" : [ 0.263682, 0.004541, 0.038797, 1.0 ],
+						"proportion" : 0.39,
+						"type" : "color"
+					}
+,
+					"color" : [ 0.929412, 0.929412, 0.352941, 1.0 ],
+					"elementcolor" : [ 0.357540726661682, 0.515565991401672, 0.861786782741547, 1.0 ],
+					"fontname" : [ "Lato" ],
+					"fontsize" : [ 12.0 ],
+					"stripecolor" : [ 0.258338063955307, 0.352425158023834, 0.511919498443604, 1.0 ],
+					"textcolor_inverse" : [ 0.968627, 0.968627, 0.968627, 1 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ],
+		"saved_attribute_attributes" : 		{
+			"default_plcolor" : 			{
+				"expression" : ""
+			}
+
+		}
+
 	}
 
 }
