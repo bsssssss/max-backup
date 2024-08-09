@@ -1,0 +1,12 @@
+{
+    "synths": {
+        "inputs": "bs.BH-inputs.maxpat",
+        "2midi": "9t.2midi.maxpat",
+        "2op.FM": "9t.2op.maxpat"
+    },
+    "sequencers": {
+        "grdSeq": "9t.grdSeq.maxpat",
+        "jSeq1": "9t.jSeq1_v3.maxpat"
+    }
+    
+}

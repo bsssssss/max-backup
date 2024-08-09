@@ -1,0 +1,59 @@
+{
+	"pattrstorage" : 	{
+		"name" : "bay_storage",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"osc1::ratio" : [ 1.0 ],
+					"osc1::ratio_mod_low" : [ 0.0 ],
+					"osc1::ratio_mod_high" : [ 0.0 ],
+					"osc1::pm" : [ 8.5 ],
+					"osc1::pm_mod_low" : [ 0.0 ],
+					"osc1::pm_mod_high" : [ 0.0 ],
+					"osc2::ratio" : [ 1.0 ],
+					"osc2::ratio_mod_low" : [ 0.0 ],
+					"osc2::ratio_mod_high" : [ 0.0 ],
+					"osc2::pm" : [ 0.0 ],
+					"osc2::pm_mod_low" : [ 0.0 ],
+					"osc2::pm_mod_high" : [ 0.0 ],
+					"amp::gain" : [ 1.0 ],
+					"amp::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.053191489361702, 1.0, 0, -0.8, 0.297872340425532, 0.0, 0, -0.75, 0.563829787234043, 0.25, 0, 0.4, 1.0, 0.0, 0, 0.45, "curve" ],
+					"chordify::basenote" : [ 84 ],
+					"chordify::chord_values::note1" : [ 1.999999999999998 ],
+					"chordify::chord_values::note2" : [ 2.999999999999997 ],
+					"chordify::chord_values::note3" : [ 6.999999999999991 ]
+				}
+
+			}
+,
+			"17" : 			{
+				"id" : 17,
+				"data" : 				{
+					"osc1::ratio" : [ 1.0 ],
+					"osc1::ratio_mod_low" : [ 0.0 ],
+					"osc1::ratio_mod_high" : [ 0.0 ],
+					"osc1::pm" : [ 8.5 ],
+					"osc1::pm_mod_low" : [ 0.0 ],
+					"osc1::pm_mod_high" : [ 0.0 ],
+					"osc2::ratio" : [ 5.0 ],
+					"osc2::ratio_mod_low" : [ 0.0 ],
+					"osc2::ratio_mod_high" : [ 0.0 ],
+					"osc2::pm" : [ 0.0 ],
+					"osc2::pm_mod_low" : [ 0.0 ],
+					"osc2::pm_mod_high" : [ 0.0 ],
+					"amp::gain" : [ 1.0 ],
+					"amp::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.053191489361702, 1.0, 0, -0.8, 0.297872340425532, 0.0, 0, -0.75, 0.563829787234043, 0.25, 0, 0.4, 1.0, 0.0, 0, 0.45, "curve" ],
+					"chordify::basenote" : [ 79 ],
+					"chordify::chord_values::note1" : [ 1.999999999999998 ],
+					"chordify::chord_values::note2" : [ 2.999999999999997 ],
+					"chordify::chord_values::note3" : [ 6.999999999999991 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

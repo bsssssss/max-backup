@@ -1,0 +1,55 @@
+{
+	"pattrstorage" : 	{
+		"name" : "bay_storage",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"timescale_select" : [ "link" ],
+					"timescale_beat" : [ 4.0 ],
+					"steps" : [ 8 ],
+					"loop" : [ 0.0 ],
+					"9t.func_gene::phase_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::sine_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::mod_sine_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::amp" : [ 1.0 ],
+					"9t.func_gene::offset" : [ 0.0 ],
+					"9t.func_gene::Q" : [ 0.0 ],
+					"9t.func_gene::phase_offset" : [ 0.0 ],
+					"9t.func_gene::phase_amp" : [ 0.0 ],
+					"9t.func_gene::sine_offset" : [ 0.0 ],
+					"9t.func_gene::sine_amp" : [ 0.0 ],
+					"9t.func_gene::mod_sine_offset" : [ 0.0 ],
+					"9t.func_gene::mod_sine_amp" : [ 0.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"timescale_select" : [ "link" ],
+					"timescale_beat" : [ 4.0 ],
+					"steps" : [ 16 ],
+					"loop" : [ 0.0 ],
+					"9t.func_gene::phase_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::sine_rate_ratio" : [ 1.0, 2.0 ],
+					"9t.func_gene::mod_sine_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::amp" : [ 1.0 ],
+					"9t.func_gene::offset" : [ 0.0 ],
+					"9t.func_gene::Q" : [ 0.0 ],
+					"9t.func_gene::phase_offset" : [ 0.0 ],
+					"9t.func_gene::phase_amp" : [ -0.06 ],
+					"9t.func_gene::sine_offset" : [ 0.0 ],
+					"9t.func_gene::sine_amp" : [ 0.9 ],
+					"9t.func_gene::mod_sine_offset" : [ 0.0 ],
+					"9t.func_gene::mod_sine_amp" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

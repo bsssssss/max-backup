@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "SendtoMax",
+            "type": "shell",
+            "command": "${workspaceFolder}/venv/bin/python3 sendtomax.py",
+            "problemMatcher": []
+        }
+    ]
+}

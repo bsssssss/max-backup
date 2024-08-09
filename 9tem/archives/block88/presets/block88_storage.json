@@ -1,0 +1,45 @@
+{
+	"pattrstorage" : 	{
+		"name" : "block88_storage",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"whole_duration_beats" : [ 1 ],
+					"global_reset_beats" : [ 1 ],
+					"mute_all" : [ 0 ],
+					"blocks" : [ "1" ],
+					"notes" : [ "0" ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"whole_duration_beats" : [ 3 ],
+					"global_reset_beats" : [ 8 ],
+					"mute_all" : [ 0 ],
+					"blocks" : [ "1 2 3 4" ],
+					"notes" : [ "0 0 1 0" ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"whole_duration_beats" : [ 4 ],
+					"global_reset_beats" : [ 12 ],
+					"mute_all" : [ 0 ],
+					"blocks" : [ "5 3 5 3 2 2" ],
+					"notes" : [ "2 2 2 2 1" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -1,0 +1,35 @@
+{
+	"pattrstorage" : 	{
+		"name" : "bay_storage",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"play" : [ 1 ],
+					"channel" : [ 1 ],
+					"note_limit_range" : [ 0.0, 12.0 ],
+					"note_limit_mode" : [ "none" ],
+					"note_add" : [ 36 ],
+					"index2note" : [ 0.0 ]
+				}
+
+			}
+,
+			"65" : 			{
+				"id" : 65,
+				"data" : 				{
+					"play" : [ 1 ],
+					"channel" : [ 2 ],
+					"note_limit_range" : [ 0.0, 12.0 ],
+					"note_limit_mode" : [ "none" ],
+					"note_add" : [ 36 ],
+					"index2note" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -1,0 +1,49 @@
+{
+	"pattrstorage" : 	{
+		"name" : "psto-tests",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"slidor1" : [ 0.083870967741935 ],
+					"slidor2" : [ 127 ],
+					"texto1" : [ "c'est la deuxieme\nbanque ;)" ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"slidor1" : [ 0.083870967741935 ],
+					"slidor2" : [ 26 ],
+					"texto1" : [ "c'est la deuxieme\nbanque \n:00000" ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"slidor1" : [ 0.0 ],
+					"slidor2" : [ 0 ],
+					"texto1" : [ "333" ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"slidor1" : [ 0.0 ],
+					"slidor2" : [ 0 ],
+					"texto1" : [ "nouveau" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

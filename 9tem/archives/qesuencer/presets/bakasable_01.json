@@ -1,0 +1,282 @@
+{
+	"pattrstorage" : 	{
+		"name" : "bay_storage",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"list_func_durations::N" : [ 5 ],
+					"list_func_durations::width" : [ 0.5 ],
+					"list_func_durations::function" : [ "tri" ],
+					"list_func_durations::Q" : [ 16 ],
+					"list_func_durations::scalar" : [ 1.0 ],
+					"list_func_durations::offset" : [ 2 ],
+					"list_func_durations::sliders" : [ 0.8125, 0.8125, 0.375, 0.0, 0.375 ],
+					"list_func_notes::N" : [ 15 ],
+					"list_func_notes::width" : [ 0.5 ],
+					"list_func_notes::function" : [ "phase" ],
+					"list_func_notes::Q" : [ 4.0 ],
+					"list_func_notes::scalar" : [ 6.0 ],
+					"list_func_notes::offset" : [ 5 ],
+					"list_func_notes::sliders" : [ 0.25, 0.75, 0.25, 0.5, 1.0, 0.25, 0.75, 0.25, 0.5, 1.0, 0.25, 0.75, 0.25, 0.5, 1.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"list_func_durations::N" : [ 5 ],
+					"list_func_durations::width" : [ 0.5 ],
+					"list_func_durations::function" : [ "phase" ],
+					"list_func_durations::Q" : [ 16 ],
+					"list_func_durations::scalar" : [ 1.0 ],
+					"list_func_durations::offset" : [ 0 ],
+					"list_func_durations::sliders" : [ 0.5625, 0.3125, 0.8125, 0.8125, 0.8125 ],
+					"list_func_notes::N" : [ 3 ],
+					"list_func_notes::width" : [ 0.5 ],
+					"list_func_notes::function" : [ "phase" ],
+					"list_func_notes::Q" : [ 4.0 ],
+					"list_func_notes::scalar" : [ 1.0 ],
+					"list_func_notes::offset" : [ 0 ],
+					"list_func_notes::sliders" : [ 0.0, 0.25, 0.5 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"list_func_durations::N" : [ 5 ],
+					"list_func_durations::width" : [ 0.5 ],
+					"list_func_durations::function" : [ "phase" ],
+					"list_func_durations::Q" : [ 16 ],
+					"list_func_durations::scalar" : [ 1.0 ],
+					"list_func_durations::offset" : [ 0 ],
+					"list_func_durations::sliders" : [ 0.5625, 0.3125, 0.8125, 0.8125, 0.8125 ],
+					"list_func_notes::N" : [ 9 ],
+					"list_func_notes::width" : [ 0.5 ],
+					"list_func_notes::function" : [ "phase" ],
+					"list_func_notes::Q" : [ 7.0 ],
+					"list_func_notes::scalar" : [ 6.5 ],
+					"list_func_notes::offset" : [ 8 ],
+					"list_func_notes::sliders" : [ 0.857142857142857, 0.571428571428571, 0.285714285714286, 0.0, 0.714285714285714, 0.428571428571429, 0.285714285714286, 0.857142857142857, 0.714285714285714 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"list_func_durations::N" : [ 5 ],
+					"list_func_durations::width" : [ 0.5 ],
+					"list_func_durations::function" : [ "phase" ],
+					"list_func_durations::Q" : [ 16 ],
+					"list_func_durations::scalar" : [ 1.0 ],
+					"list_func_durations::offset" : [ 0 ],
+					"list_func_durations::sliders" : [ 0.875, 0.6875, 0.8125, 0.625, 0.75 ],
+					"list_func_notes::N" : [ 2 ],
+					"list_func_notes::width" : [ 0.5 ],
+					"list_func_notes::function" : [ "phase" ],
+					"list_func_notes::Q" : [ 7.0 ],
+					"list_func_notes::scalar" : [ 6.5 ],
+					"list_func_notes::offset" : [ 8 ],
+					"list_func_notes::sliders" : [ 0.0, 0.857142857142857 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"list_func_durations::N" : [ 8 ],
+					"list_func_durations::width" : [ 0.5 ],
+					"list_func_durations::function" : [ "tri" ],
+					"list_func_durations::Q" : [ 16 ],
+					"list_func_durations::scalar" : [ 0.34 ],
+					"list_func_durations::offset" : [ 13 ],
+					"list_func_durations::sliders" : [ 0.75, 0.75, 0.75, 0.5, 0.5, 0.5, 0.25, 0.25 ],
+					"list_func_notes::N" : [ 14 ],
+					"list_func_notes::width" : [ 0.5 ],
+					"list_func_notes::function" : [ "phase" ],
+					"list_func_notes::Q" : [ 14.300000000000001 ],
+					"list_func_notes::scalar" : [ 16.0 ],
+					"list_func_notes::offset" : [ 10 ],
+					"list_func_notes::sliders" : [ 0.699300699300699, 0.839160839160839, 0.0, 0.13986013986014, 0.27972027972028, 0.41958041958042, 0.559440559440559, 0.699300699300699, 0.839160839160839, 0.0, 0.13986013986014, 0.27972027972028, 0.41958041958042, 0.559440559440559 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"list_func_durations::N" : [ 8 ],
+					"list_func_durations::width" : [ 0.5 ],
+					"list_func_durations::function" : [ "tri" ],
+					"list_func_durations::Q" : [ 16 ],
+					"list_func_durations::scalar" : [ 237.0 ],
+					"list_func_durations::offset" : [ 20 ],
+					"list_func_durations::sliders" : [ 0.6875, 0.6875, 0.5, 0.5, 0.5, 0.5, 0.5, 0.25 ],
+					"list_func_notes::N" : [ 14 ],
+					"list_func_notes::width" : [ 0.5 ],
+					"list_func_notes::function" : [ "phase" ],
+					"list_func_notes::Q" : [ 14.300000000000001 ],
+					"list_func_notes::scalar" : [ 16.0 ],
+					"list_func_notes::offset" : [ 10 ],
+					"list_func_notes::sliders" : [ 0.839160839160839, 0.699300699300699, 0.909090909090909, 0.13986013986014, 0.13986013986014, 0.13986013986014, 0.20979020979021, 0.20979020979021, 0.839160839160839, 0.0, 0.13986013986014, 0.27972027972028, 0.41958041958042, 0.559440559440559 ]
+				}
+
+			}
+,
+			"13" : 			{
+				"id" : 13,
+				"data" : 				{
+					"list_func_durations::N" : [ 5 ],
+					"list_func_durations::width" : [ 0.5 ],
+					"list_func_durations::function" : [ "phase" ],
+					"list_func_durations::Q" : [ 16 ],
+					"list_func_durations::scalar" : [ 1.0 ],
+					"list_func_durations::offset" : [ 0 ],
+					"list_func_durations::sliders" : [ 0.5625, 0.3125, 0.8125, 0.8125, 0.8125 ],
+					"list_func_notes::N" : [ 9 ],
+					"list_func_notes::width" : [ 0.5 ],
+					"list_func_notes::function" : [ "phase" ],
+					"list_func_notes::Q" : [ 7.0 ],
+					"list_func_notes::scalar" : [ 6.5 ],
+					"list_func_notes::offset" : [ 8 ],
+					"list_func_notes::sliders" : [ 0.714285714285714, 0.714285714285714, 0.714285714285714, 0.714285714285714, 0.714285714285714, 0.714285714285714, 0.714285714285714, 0.714285714285714, 0.714285714285714 ]
+				}
+
+			}
+,
+			"14" : 			{
+				"id" : 14,
+				"data" : 				{
+					"list_func_durations::N" : [ 5 ],
+					"list_func_durations::width" : [ 0.5 ],
+					"list_func_durations::function" : [ "phase" ],
+					"list_func_durations::Q" : [ 16 ],
+					"list_func_durations::scalar" : [ 1.0 ],
+					"list_func_durations::offset" : [ 0 ],
+					"list_func_durations::sliders" : [ 0.5625, 0.3125, 0.8125, 0.8125, 0.8125 ],
+					"list_func_notes::N" : [ 3 ],
+					"list_func_notes::width" : [ 0.5 ],
+					"list_func_notes::function" : [ "phase" ],
+					"list_func_notes::Q" : [ 7.0 ],
+					"list_func_notes::scalar" : [ 22.0 ],
+					"list_func_notes::offset" : [ 20 ],
+					"list_func_notes::sliders" : [ 0.142857142857143, 0.857142857142857, 1.0 ]
+				}
+
+			}
+,
+			"15" : 			{
+				"id" : 15,
+				"data" : 				{
+					"list_func_durations::N" : [ 9 ],
+					"list_func_durations::width" : [ 0.5 ],
+					"list_func_durations::function" : [ "phase" ],
+					"list_func_durations::Q" : [ 16 ],
+					"list_func_durations::scalar" : [ 1.0 ],
+					"list_func_durations::offset" : [ 17 ],
+					"list_func_durations::sliders" : [ 0.875, 0.875, 0.875, 0.875, 0.875, 0.8125, 0.8125, 0.8125, 0.8125 ],
+					"list_func_notes::N" : [ 3 ],
+					"list_func_notes::width" : [ 0.5 ],
+					"list_func_notes::function" : [ "phase" ],
+					"list_func_notes::Q" : [ 7.0 ],
+					"list_func_notes::scalar" : [ 22.0 ],
+					"list_func_notes::offset" : [ 20 ],
+					"list_func_notes::sliders" : [ 0.142857142857143, 0.857142857142857, 0.714285714285714 ]
+				}
+
+			}
+,
+			"16" : 			{
+				"id" : 16,
+				"data" : 				{
+					"list_func_durations::N" : [ 5 ],
+					"list_func_durations::width" : [ 0.5 ],
+					"list_func_durations::function" : [ "phase" ],
+					"list_func_durations::Q" : [ 16 ],
+					"list_func_durations::scalar" : [ 1.0 ],
+					"list_func_durations::offset" : [ 17 ],
+					"list_func_durations::sliders" : [ 0.625, 0.625, 0.6875, 0.8125, 0.8125 ],
+					"list_func_notes::N" : [ 8 ],
+					"list_func_notes::width" : [ 0.5 ],
+					"list_func_notes::function" : [ "phase" ],
+					"list_func_notes::Q" : [ 16.0 ],
+					"list_func_notes::scalar" : [ 14.0 ],
+					"list_func_notes::offset" : [ 0 ],
+					"list_func_notes::sliders" : [ 0.0, 0.75, 0.5, 0.25, 0.0, 0.75, 0.5, 0.25 ]
+				}
+
+			}
+,
+			"17" : 			{
+				"id" : 17,
+				"data" : 				{
+					"list_func_durations::N" : [ 5 ],
+					"list_func_durations::width" : [ 0.5 ],
+					"list_func_durations::function" : [ "phase" ],
+					"list_func_durations::Q" : [ 16 ],
+					"list_func_durations::scalar" : [ 1.0 ],
+					"list_func_durations::offset" : [ 17 ],
+					"list_func_durations::sliders" : [ 0.625, 0.625, 0.6875, 0.8125, 0.8125 ],
+					"list_func_notes::N" : [ 8 ],
+					"list_func_notes::width" : [ 0.5 ],
+					"list_func_notes::function" : [ "phase" ],
+					"list_func_notes::Q" : [ 16.0 ],
+					"list_func_notes::scalar" : [ 14.0 ],
+					"list_func_notes::offset" : [ 0 ],
+					"list_func_notes::sliders" : [ 0.0, 0.75, 0.4375, 0.1875, 0.0, 0.75, 0.5, 0.875 ]
+				}
+
+			}
+,
+			"31" : 			{
+				"id" : 31,
+				"data" : 				{
+					"list_func_durations::N" : [ 2 ],
+					"list_func_durations::width" : [ 0.5 ],
+					"list_func_durations::function" : [ "phase" ],
+					"list_func_durations::Q" : [ 16 ],
+					"list_func_durations::scalar" : [ 1.0 ],
+					"list_func_durations::offset" : [ 0 ],
+					"list_func_durations::sliders" : [ 0.3125, 0.5625 ],
+					"list_func_notes::N" : [ 2 ],
+					"list_func_notes::width" : [ 0.5 ],
+					"list_func_notes::function" : [ "phase" ],
+					"list_func_notes::Q" : [ 16 ],
+					"list_func_notes::scalar" : [ 1.0 ],
+					"list_func_notes::offset" : [ 0 ],
+					"list_func_notes::sliders" : [ 0.25, 0.0625 ]
+				}
+
+			}
+,
+			"32" : 			{
+				"id" : 32,
+				"data" : 				{
+					"list_func_durations::N" : [ 2 ],
+					"list_func_durations::width" : [ 0.5 ],
+					"list_func_durations::function" : [ "phase" ],
+					"list_func_durations::Q" : [ 16 ],
+					"list_func_durations::scalar" : [ 1.0 ],
+					"list_func_durations::offset" : [ 0 ],
+					"list_func_durations::sliders" : [ 0.3125, 0.3125 ],
+					"list_func_notes::N" : [ 2 ],
+					"list_func_notes::width" : [ 0.5 ],
+					"list_func_notes::function" : [ "phase" ],
+					"list_func_notes::Q" : [ 16 ],
+					"list_func_notes::scalar" : [ 1.0 ],
+					"list_func_notes::offset" : [ 0 ],
+					"list_func_notes::sliders" : [ 0.25, 0.0625 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

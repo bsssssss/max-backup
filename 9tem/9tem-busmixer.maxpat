@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1332.0, 438.0, 370.0, 311.0 ],
+		"rect" : [ 731.0, 693.0, 328.0, 263.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -52,8 +52,8 @@
 					"focusbordercolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"fontsize" : 12.0,
 					"id" : "obj-34",
-					"lcdbgcolor" : [ 0.07843137254902, 0.047058823529412, 0.043137254901961, 1.0 ],
-					"lcdcolor" : [ 0.447058823529412, 0.333333333333333, 0.231372549019608, 1.0 ],
+					"lcdbgcolor" : [ 0.12156862745098, 0.113725490196078, 0.113725490196078, 1.0 ],
+					"lcdcolor" : [ 0.407843137254902, 0.427450980392157, 0.529411764705882, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -61,7 +61,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 944.166666666666629, 530.5, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 49.0, 106.0, 20.992797777056694, 19.163623154163361 ],
+					"presentation_rect" : [ 51.0, 126.0, 20.992798000000001, 19.163623000000001 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -100,7 +100,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "solo[8]",
+							"parameter_longname" : "bus-solo",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Solo",
@@ -111,7 +111,7 @@
 ,
 					"text" : "S",
 					"texton" : "S",
-					"varname" : "solo[8]"
+					"varname" : "bus-solo"
 				}
 
 			}
@@ -153,12 +153,12 @@
 					"bgoncolor" : [ 0.223529411764706, 0.223529411764706, 0.223529411764706, 0.6 ],
 					"bordercolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
 					"focusbordercolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
-					"fontface" : 1,
-					"fontsize" : 12.0,
+					"fontname" : "Andale Mono",
+					"fontsize" : 18.0,
 					"id" : "obj-20",
 					"ignoreclick" : 1,
 					"lcdbgcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 0.0 ],
-					"lcdcolor" : [ 0.313725490196078, 0.294117647058824, 0.294117647058824, 1.0 ],
+					"lcdcolor" : [ 0.407843137254902, 0.427450980392157, 0.529411764705882, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -166,7 +166,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1226.0, 831.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.0, 3.0, 38.0, 36.0 ],
+					"presentation_rect" : [ 51.0, 0.0, 43.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -216,7 +216,7 @@
 ,
 					"text" : "1",
 					"texton" : "1",
-					"varname" : "active[19]"
+					"varname" : "live.text"
 				}
 
 			}
@@ -265,12 +265,10 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1114.0, 82.0, 203.0, 23.0 ],
 					"restore" : 					{
-						"active[19]" : [ 0.0 ],
-						"bus-active" : [ 0.0 ],
-						"bus-db" : [ 0.0 ],
-						"bus-out" : [ 3.0 ],
-						"bus-slider" : [ 0.0 ],
-						"solo[8]" : [ 0.0 ]
+						"bus-dBu" : [ 0.0 ],
+						"bus-dBu_slider" : [ 0.0 ],
+						"bus-mute" : [ 0.0 ],
+						"bus-solo" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr bus-track @autorestore 0",
@@ -400,7 +398,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.223529411764706, 0.223529411764706, 0.223529411764706, 0.6 ],
+					"bgcolor" : [ 0.168627450980392, 0.168627450980392, 0.168627450980392, 0.6 ],
 					"contdata" : 1,
 					"id" : "obj-12",
 					"maxclass" : "multislider",
@@ -410,12 +408,12 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 638.0, 113.0, 36.0, 124.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.0, 3.0, 13.0, 139.0 ],
+					"presentation_rect" : [ 30.0, 0.0, 13.0, 163.0 ],
 					"setminmax" : [ -70.0, 12.0 ],
 					"setstyle" : 1,
-					"slidercolor" : [ 0.313725490196078, 0.294117647058824, 0.294117647058824, 1.0 ],
+					"slidercolor" : [ 0.32156862745098, 0.337254901960784, 0.415686274509804, 1.0 ],
 					"thickness" : 5,
-					"varname" : "bus-slider"
+					"varname" : "bus-dBu_slider"
 				}
 
 			}
@@ -472,7 +470,7 @@
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"fontsize" : 12.0,
 					"format" : 6,
-					"htricolor" : [ 0.368627450980392, 0.631372549019608, 0.552941176470588, 1.0 ],
+					"htricolor" : [ 0.592156862745098, 0.619607843137255, 0.764705882352941, 1.0 ],
 					"id" : "obj-4",
 					"maxclass" : "flonum",
 					"maximum" : 12.0,
@@ -482,11 +480,11 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 651.0, 278.0, 49.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.0, 65.0, 40.0, 23.0 ],
-					"textcolor" : [ 0.564705882352941, 0.564705882352941, 0.564705882352941, 1.0 ],
-					"tricolor" : [ 0.313725490196078, 0.294117647058824, 0.294117647058824, 1.0 ],
+					"presentation_rect" : [ 51.0, 69.0, 46.0, 23.0 ],
+					"textcolor" : [ 0.407843137254902, 0.427450980392157, 0.529411764705882, 1.0 ],
+					"tricolor" : [ 0.486274509803922, 0.509803921568627, 0.627450980392157, 1.0 ],
 					"triscale" : 0.75,
-					"varname" : "bus-db"
+					"varname" : "bus-dBu"
 				}
 
 			}
@@ -558,12 +556,12 @@
 					"monotone" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"offcolor" : [ 0.223529411764706, 0.223529411764706, 0.223529411764706, 0.6 ],
-					"oncolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+					"offcolor" : [ 0.168627450980392, 0.168627450980392, 0.168627450980392, 0.6 ],
+					"oncolor" : [ 0.313725490196078, 0.294117647058824, 0.294117647058824, 1.0 ],
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 884.0, 669.0, 80.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, -1.0, 20.0, 147.0 ]
+					"presentation_rect" : [ 0.0, -3.0, 20.0, 170.0 ]
 				}
 
 			}
@@ -1613,11 +1611,11 @@
 					"automation" : "off",
 					"automationon" : "on",
 					"bordercolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
-					"focusbordercolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.0 ],
+					"focusbordercolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
 					"fontsize" : 12.0,
 					"id" : "obj-36",
-					"lcdbgcolor" : [ 0.07843137254902, 0.047058823529412, 0.043137254901961, 1.0 ],
-					"lcdcolor" : [ 0.313725490196078, 0.294117647058824, 0.294117647058824, 1.0 ],
+					"lcdbgcolor" : [ 0.12156862745098, 0.113725490196078, 0.113725490196078, 1.0 ],
+					"lcdcolor" : [ 0.407843137254902, 0.427450980392157, 0.529411764705882, 1.0 ],
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -1625,7 +1623,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1262.0, 530.0, 21.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 71.0, 106.0, 20.992798000000001, 19.163623000000001 ],
+					"presentation_rect" : [ 73.0, 126.0, 20.992798000000001, 19.163623000000001 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -1643,6 +1641,10 @@
 							"expression" : ""
 						}
 ,
+						"inactivelcdcolor" : 						{
+							"expression" : ""
+						}
+,
 						"lcdbgcolor" : 						{
 							"expression" : ""
 						}
@@ -1655,7 +1657,7 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "bus-active",
+							"parameter_longname" : "bus_active",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Active",
@@ -1666,7 +1668,7 @@
 ,
 					"text" : "M",
 					"texton" : "M",
-					"varname" : "bus-active"
+					"varname" : "bus-mute"
 				}
 
 			}
@@ -2070,7 +2072,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-40",
 					"lcdbgcolor" : [ 0.12156862745098, 0.113725490196078, 0.113725490196078, 1.0 ],
-					"lcdcolor" : [ 0.388235294117647, 0.364705882352941, 0.364705882352941, 1.0 ],
+					"lcdcolor" : [ 0.407843137254902, 0.427450980392157, 0.529411764705882, 1.0 ],
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2078,7 +2080,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 676.0, 843.0, 44.444446265697479, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 49.0, 125.0, 42.417112112045288, 18.0 ],
+					"presentation_rect" : [ 51.0, 148.0, 43.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"lcdbgcolor" : 						{
 							"expression" : ""
@@ -2104,7 +2106,7 @@
 					}
 ,
 					"tricolor" : [ 0.741176470588235, 0.380392156862745, 0.203921568627451, 1.0 ],
-					"varname" : "bus-out"
+					"varname" : "bus-routing"
 				}
 
 			}
@@ -2116,12 +2118,12 @@
 					"monotone" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"offcolor" : [ 0.223529411764706, 0.223529411764706, 0.223529411764706, 0.6 ],
-					"oncolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+					"offcolor" : [ 0.168627450980392, 0.168627450980392, 0.168627450980392, 0.6 ],
+					"oncolor" : [ 0.313725490196078, 0.294117647058824, 0.294117647058824, 1.0 ],
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 726.5, 529.0, 82.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 16.0, 33.0, 13.0, 113.0 ]
+					"presentation_rect" : [ 16.0, 30.0, 13.0, 137.0 ]
 				}
 
 			}
@@ -2603,6 +2605,42 @@
 				"patchline" : 				{
 					"destination" : [ "obj-41", 1 ],
 					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.701961, 0.701961, 0.701961, 0.2 ],
+					"destination" : [ "obj-12", 0 ],
+					"order" : 3,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.701961, 0.701961, 0.701961, 0.2 ],
+					"destination" : [ "obj-34", 0 ],
+					"order" : 1,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.701961, 0.701961, 0.701961, 0.2 ],
+					"destination" : [ "obj-36", 0 ],
+					"order" : 0,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.701961, 0.701961, 0.701961, 0.2 ],
+					"destination" : [ "obj-4", 0 ],
+					"order" : 2,
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}

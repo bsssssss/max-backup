@@ -1,0 +1,43 @@
+{
+	"pattrstorage" : 	{
+		"name" : "bay_storage",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"length" : [ 4.0 ],
+					"length_select" : [ "fit" ],
+					"note_div" : [ 16 ],
+					"gate_div" : [ 16 ],
+					"note_steps" : [ 16 ],
+					"gate_mode" : [ "seq.len" ],
+					"note_mode" : [ "gate" ],
+					"gate_grid_seq" : [ 3, 16, 1, 0, 3, 0, 5000, 8000, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
+					"note_multislider" : [ 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+					"gate_steps" : [ 16 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"length" : [ 4.0 ],
+					"length_select" : [ "fit" ],
+					"note_div" : [ 16 ],
+					"gate_div" : [ 16 ],
+					"note_steps" : [ 16 ],
+					"gate_mode" : [ "seq.len" ],
+					"note_mode" : [ "gate" ],
+					"gate_grid_seq" : [ 3, 16, 1, 0, 16, 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000, 13000, 14000, 15000, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
+					"note_multislider" : [ 0, 2, 3, 0, 1, 2, 5, 4, 5, 6, 4, 5, 6, 3, 2, 0 ],
+					"gate_steps" : [ 16 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

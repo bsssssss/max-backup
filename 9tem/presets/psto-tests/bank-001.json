@@ -1,0 +1,39 @@
+{
+	"pattrstorage" : 	{
+		"name" : "bay_storage",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"slidor1" : [ 0.348387096774194 ],
+					"slidor2" : [ 31 ],
+					"texto1" : [ "bank1111!!!!" ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"slidor1" : [ 0.774193548387097 ],
+					"slidor2" : [ 93 ],
+					"texto1" : [ "2 of bank 1 \n*serious*" ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"slidor1" : [ 0.890322580645161 ],
+					"slidor2" : [ 45 ],
+					"texto1" : [ "3 of 1 '''" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

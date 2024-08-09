@@ -1,0 +1,121 @@
+{
+	"patcher" : 	{
+		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 2,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "dsp.gen",
+		"rect" : [ 1157.0, 66.0, 571.0, 1051.0 ],
+		"bglocked" : 0,
+		"openinpresentation" : 0,
+		"default_fontsize" : 12.0,
+		"default_fontface" : 0,
+		"default_fontname" : "Arial",
+		"gridonopen" : 1,
+		"gridsize" : [ 15.0, 15.0 ],
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
+		"statusbarvisible" : 2,
+		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 15,
+		"tallnewobj" : 0,
+		"boxanimatetime" : 200,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
+		"style" : "myStyle",
+		"subpatcher_template" : "myTemplate",
+		"assistshowspatchername" : 0,
+		"boxes" : [ 			{
+				"box" : 				{
+					"code" : "sinu(v,rate,offset,amp) {\r\n\ts = (v*rate)+offset;\r\n\ts = sin(s * twopi);\r\n\ts = ((s+1) * 0.5) * amp;\r\n\treturn s;\r\n}\r\n\r\n\r\nParam phsRate(1);\r\nParam phsOff(0);\r\nParam phsAmp(0);\r\n\r\nParam sinRate(1);\r\nParam sinOff(0);\r\nParam sinAmp(0);\r\n\r\nParam modRate(1);\r\nParam modOff(0);\r\nParam modAmp(0);\r\n\r\nParam offset(0);\r\nParam amp(1);\r\n\r\nParam Q(0);\r\n\r\n\r\nv = in1;\r\npv = v;\r\n\r\nif(phsRate < 0) {\r\n\tpv = 1 - v;\r\n}\r\nelse {\r\n\tpv = v;\r\n}\r\n\r\nphs = ((pv*phsRate) + phsOff);\r\nphs = (phs * phsAmp) % 1.;\r\n\r\nsine    = sinu(v, sinRate, sinOff, sinAmp);\r\nmodSine = sinu(v, modRate, modOff, modAmp);\r\n\r\nw = sine + modSine + phs;\r\nw = fold(w);\r\nw = (w * amp)+offset;\r\n\r\nif(Q > 0) {\r\n\tw = floor(w*Q) / Q;\r\n}\r\nelse {\r\n\tw = w;\r\n}\r\n\r\nw = clip(w);\r\n\r\nout1 = w;",
+					"fontface" : 0,
+					"fontname" : "<Monospaced>",
+					"fontsize" : 12.0,
+					"id" : "obj-5",
+					"maxclass" : "codebox",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 42.0, 61.0, 507.0, 915.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 42.0, 20.0, 28.0, 22.0 ],
+					"text" : "in 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 42.0, 1000.0, 35.0, 22.0 ],
+					"text" : "out 1"
+				}
+
+			}
+ ],
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+ ],
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "myStyle",
+				"default" : 				{
+					"accentcolor" : [ 0.262745098039216, 0.247058823529412, 0.247058823529412, 1.0 ],
+					"bgfillcolor" : 					{
+						"angle" : 270.0,
+						"autogradient" : 0.0,
+						"color" : [ 0.215686274509804, 0.203921568627451, 0.203921568627451, 1.0 ],
+						"color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+						"color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+						"proportion" : 0.5,
+						"type" : "color"
+					}
+,
+					"editing_bgcolor" : [ 0.12156862745098, 0.113725490196078, 0.113725490196078, 1.0 ],
+					"locked_bgcolor" : [ 0.117647058823529, 0.109803921568627, 0.109803921568627, 1.0 ],
+					"textcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
+	}
+
+}

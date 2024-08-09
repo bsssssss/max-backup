@@ -1,0 +1,345 @@
+{
+	"pattrstorage" : 	{
+		"name" : "bay_storage",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"timescale_select" : [ "beat" ],
+					"timescale_beat" : [ 8.0 ],
+					"steps" : [ 16 ],
+					"loop" : [ 1.0 ],
+					"9t.func_gene::phase_rate_ratio" : [ 3.0, 1.0 ],
+					"9t.func_gene::sine_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::mod_sine_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::amp" : [ -2.0 ],
+					"9t.func_gene::offset" : [ 0.58 ],
+					"9t.func_gene::Q" : [ 4.5 ],
+					"9t.func_gene::phase_offset" : [ 0.0 ],
+					"9t.func_gene::phase_amp" : [ 1.0 ],
+					"9t.func_gene::sine_offset" : [ 0.0 ],
+					"9t.func_gene::sine_amp" : [ 0.0 ],
+					"9t.func_gene::mod_sine_offset" : [ 0.0 ],
+					"9t.func_gene::mod_sine_amp" : [ 0.0 ],
+					"9t.func_gene::selector" : [  ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"timescale_select" : [ "link" ],
+					"timescale_beat" : [ 32.0 ],
+					"steps" : [ 32 ],
+					"loop" : [ 0.0 ],
+					"9t.func_gene::phase_rate_ratio" : [ 15.0, 3.0 ],
+					"9t.func_gene::sine_rate_ratio" : [ 1.0, 4.0 ],
+					"9t.func_gene::mod_sine_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::amp" : [ -0.66 ],
+					"9t.func_gene::offset" : [ 0.82 ],
+					"9t.func_gene::Q" : [ 0.0 ],
+					"9t.func_gene::phase_offset" : [ 0.803 ],
+					"9t.func_gene::phase_amp" : [ 0.87 ],
+					"9t.func_gene::sine_offset" : [ 0.474 ],
+					"9t.func_gene::sine_amp" : [ 3.42 ],
+					"9t.func_gene::mod_sine_offset" : [ 0.0 ],
+					"9t.func_gene::mod_sine_amp" : [ 0.0 ],
+					"9t.func_gene::selector" : [ "sine" ]
+				}
+
+			}
+,
+			"17" : 			{
+				"id" : 17,
+				"data" : 				{
+					"timescale_select" : [ "link" ],
+					"timescale_beat" : [ 8.0 ],
+					"steps" : [ 16 ],
+					"loop" : [ 1.0 ],
+					"9t.func_gene::phase_rate_ratio" : [ 3.0, 1.0 ],
+					"9t.func_gene::sine_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::mod_sine_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::amp" : [ 1.0 ],
+					"9t.func_gene::offset" : [ 0.58 ],
+					"9t.func_gene::Q" : [ 4.5 ],
+					"9t.func_gene::phase_offset" : [ 0.0 ],
+					"9t.func_gene::phase_amp" : [ 1.0 ],
+					"9t.func_gene::sine_offset" : [ 0.0 ],
+					"9t.func_gene::sine_amp" : [ 0.0 ],
+					"9t.func_gene::mod_sine_offset" : [ 0.0 ],
+					"9t.func_gene::mod_sine_amp" : [ 0.0 ],
+					"9t.func_gene::selector" : [ "sine'" ]
+				}
+
+			}
+,
+			"18" : 			{
+				"id" : 18,
+				"data" : 				{
+					"timescale_select" : [ "link" ],
+					"timescale_beat" : [ 8.0 ],
+					"steps" : [ 16 ],
+					"loop" : [ 1.0 ],
+					"9t.func_gene::phase_rate_ratio" : [ 3.0, 1.0 ],
+					"9t.func_gene::sine_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::mod_sine_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::amp" : [ 1.0 ],
+					"9t.func_gene::offset" : [ 0.58 ],
+					"9t.func_gene::Q" : [ 4.5 ],
+					"9t.func_gene::phase_offset" : [ 0.0 ],
+					"9t.func_gene::phase_amp" : [ 1.0 ],
+					"9t.func_gene::sine_offset" : [ 0.0 ],
+					"9t.func_gene::sine_amp" : [ 0.0 ],
+					"9t.func_gene::mod_sine_offset" : [ 0.0 ],
+					"9t.func_gene::mod_sine_amp" : [ 0.0 ],
+					"9t.func_gene::selector" : [ "sine'" ]
+				}
+
+			}
+,
+			"33" : 			{
+				"id" : 33,
+				"data" : 				{
+					"timescale_select" : [ "link" ],
+					"timescale_beat" : [ 8.0 ],
+					"steps" : [ 12 ],
+					"loop" : [ 1.0 ],
+					"9t.func_gene::phase_rate_ratio" : [ 2.0, 54.0 ],
+					"9t.func_gene::sine_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::mod_sine_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::amp" : [ 1.0 ],
+					"9t.func_gene::offset" : [ 0.0 ],
+					"9t.func_gene::Q" : [ 0.0 ],
+					"9t.func_gene::phase_offset" : [ 0.5 ],
+					"9t.func_gene::phase_amp" : [ 16.800000000000001 ],
+					"9t.func_gene::sine_offset" : [ 0.7 ],
+					"9t.func_gene::sine_amp" : [ -0.44 ],
+					"9t.func_gene::mod_sine_offset" : [ 0.0 ],
+					"9t.func_gene::mod_sine_amp" : [ 0.0 ],
+					"9t.func_gene::selector" : [  ]
+				}
+
+			}
+,
+			"49" : 			{
+				"id" : 49,
+				"data" : 				{
+					"timescale_select" : [ "link" ],
+					"timescale_beat" : [ 4.0 ],
+					"steps" : [ 8 ],
+					"loop" : [ 0.0 ],
+					"9t.func_gene::phase_rate_ratio" : [ 2.0, 1.0 ],
+					"9t.func_gene::sine_rate_ratio" : [ 1.0, 3.0 ],
+					"9t.func_gene::mod_sine_rate_ratio" : [ 7.0, 1.0 ],
+					"9t.func_gene::amp" : [ -0.28 ],
+					"9t.func_gene::offset" : [ 0.9 ],
+					"9t.func_gene::Q" : [ 2.6 ],
+					"9t.func_gene::phase_offset" : [ 0.24 ],
+					"9t.func_gene::phase_amp" : [ 0.0 ],
+					"9t.func_gene::sine_offset" : [ -1.16 ],
+					"9t.func_gene::sine_amp" : [ 1.46 ],
+					"9t.func_gene::mod_sine_offset" : [ 0.0 ],
+					"9t.func_gene::mod_sine_amp" : [ 0.0 ],
+					"9t.func_gene::selector" : [  ]
+				}
+
+			}
+,
+			"50" : 			{
+				"id" : 50,
+				"data" : 				{
+					"timescale_select" : [ "link" ],
+					"timescale_beat" : [ 4.0 ],
+					"steps" : [ 8 ],
+					"loop" : [ 0.0 ],
+					"9t.func_gene::phase_rate_ratio" : [ 2.0, 1.0 ],
+					"9t.func_gene::sine_rate_ratio" : [ 1.0, 3.0 ],
+					"9t.func_gene::mod_sine_rate_ratio" : [ 7.0, 1.0 ],
+					"9t.func_gene::amp" : [ -0.28 ],
+					"9t.func_gene::offset" : [ 0.9 ],
+					"9t.func_gene::Q" : [ 2.6 ],
+					"9t.func_gene::phase_offset" : [ 0.24 ],
+					"9t.func_gene::phase_amp" : [ 0.0 ],
+					"9t.func_gene::sine_offset" : [ -1.28 ],
+					"9t.func_gene::sine_amp" : [ 1.46 ],
+					"9t.func_gene::mod_sine_offset" : [ 0.0 ],
+					"9t.func_gene::mod_sine_amp" : [ 0.0 ],
+					"9t.func_gene::selector" : [ "sine" ]
+				}
+
+			}
+,
+			"52" : 			{
+				"id" : 52,
+				"data" : 				{
+					"timescale_select" : [ "link" ],
+					"timescale_beat" : [ 4.0 ],
+					"steps" : [ 8 ],
+					"loop" : [ 0.0 ],
+					"9t.func_gene::phase_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::sine_rate_ratio" : [ 1.0, 10.0 ],
+					"9t.func_gene::mod_sine_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::amp" : [ 1.0 ],
+					"9t.func_gene::offset" : [ 0.0 ],
+					"9t.func_gene::Q" : [ 0.0 ],
+					"9t.func_gene::phase_offset" : [ 0.0 ],
+					"9t.func_gene::phase_amp" : [ 0.0 ],
+					"9t.func_gene::sine_offset" : [ 0.4 ],
+					"9t.func_gene::sine_amp" : [ 2.8 ],
+					"9t.func_gene::mod_sine_offset" : [ 0.0 ],
+					"9t.func_gene::mod_sine_amp" : [ 2.4 ],
+					"9t.func_gene::selector" : [ "sine'" ]
+				}
+
+			}
+,
+			"65" : 			{
+				"id" : 65,
+				"data" : 				{
+					"timescale_select" : [ "link" ],
+					"timescale_beat" : [ 4.0 ],
+					"steps" : [ 8 ],
+					"loop" : [ 0.0 ],
+					"9t.func_gene::phase_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::sine_rate_ratio" : [ 1.0, 10.0 ],
+					"9t.func_gene::mod_sine_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::amp" : [ 1.0 ],
+					"9t.func_gene::offset" : [ 0.0 ],
+					"9t.func_gene::Q" : [ 0.0 ],
+					"9t.func_gene::phase_offset" : [ 0.0 ],
+					"9t.func_gene::phase_amp" : [ 0.0 ],
+					"9t.func_gene::sine_offset" : [ 0.4 ],
+					"9t.func_gene::sine_amp" : [ 2.8 ],
+					"9t.func_gene::mod_sine_offset" : [ 0.0 ],
+					"9t.func_gene::mod_sine_amp" : [ 0.89 ],
+					"9t.func_gene::selector" : [ "sine'" ]
+				}
+
+			}
+,
+			"66" : 			{
+				"id" : 66,
+				"data" : 				{
+					"timescale_select" : [ "link" ],
+					"timescale_beat" : [ 4.0 ],
+					"steps" : [ 5 ],
+					"loop" : [ 0.0 ],
+					"9t.func_gene::phase_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::sine_rate_ratio" : [ 1.0, 10.0 ],
+					"9t.func_gene::mod_sine_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::amp" : [ 1.0 ],
+					"9t.func_gene::offset" : [ 0.1 ],
+					"9t.func_gene::Q" : [ 3.0 ],
+					"9t.func_gene::phase_offset" : [ 0.0 ],
+					"9t.func_gene::phase_amp" : [ 0.0 ],
+					"9t.func_gene::sine_offset" : [ 0.4 ],
+					"9t.func_gene::sine_amp" : [ 2.8 ],
+					"9t.func_gene::mod_sine_offset" : [ 0.0 ],
+					"9t.func_gene::mod_sine_amp" : [ 0.89 ],
+					"9t.func_gene::selector" : [ "all" ]
+				}
+
+			}
+,
+			"67" : 			{
+				"id" : 67,
+				"data" : 				{
+					"timescale_select" : [ "link" ],
+					"timescale_beat" : [ 4.0 ],
+					"steps" : [ 5 ],
+					"loop" : [ 0.0 ],
+					"9t.func_gene::phase_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::sine_rate_ratio" : [ 1.0, 10.0 ],
+					"9t.func_gene::mod_sine_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::amp" : [ 1.0 ],
+					"9t.func_gene::offset" : [ 0.1 ],
+					"9t.func_gene::Q" : [ 3.0 ],
+					"9t.func_gene::phase_offset" : [ 0.0 ],
+					"9t.func_gene::phase_amp" : [ 0.0 ],
+					"9t.func_gene::sine_offset" : [ 0.4 ],
+					"9t.func_gene::sine_amp" : [ 2.8 ],
+					"9t.func_gene::mod_sine_offset" : [ 0.0 ],
+					"9t.func_gene::mod_sine_amp" : [ 0.89 ],
+					"9t.func_gene::selector" : [ "all" ]
+				}
+
+			}
+,
+			"68" : 			{
+				"id" : 68,
+				"data" : 				{
+					"timescale_select" : [ "link" ],
+					"timescale_beat" : [ 4.0 ],
+					"steps" : [ 4 ],
+					"loop" : [ 0.0 ],
+					"9t.func_gene::phase_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::sine_rate_ratio" : [ 1.0, 10.0 ],
+					"9t.func_gene::mod_sine_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::amp" : [ 0.77 ],
+					"9t.func_gene::offset" : [ 0.1 ],
+					"9t.func_gene::Q" : [ 6.0 ],
+					"9t.func_gene::phase_offset" : [ 0.06 ],
+					"9t.func_gene::phase_amp" : [ 1.21 ],
+					"9t.func_gene::sine_offset" : [ 0.4 ],
+					"9t.func_gene::sine_amp" : [ 2.8 ],
+					"9t.func_gene::mod_sine_offset" : [ 0.0 ],
+					"9t.func_gene::mod_sine_amp" : [ 0.89 ],
+					"9t.func_gene::selector" : [ "all" ]
+				}
+
+			}
+,
+			"81" : 			{
+				"id" : 81,
+				"data" : 				{
+					"timescale_select" : [ "link" ],
+					"timescale_beat" : [ 4.0 ],
+					"steps" : [ 2 ],
+					"loop" : [ 0.0 ],
+					"9t.func_gene::phase_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::sine_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::mod_sine_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::amp" : [ 1.0 ],
+					"9t.func_gene::offset" : [ 0.0 ],
+					"9t.func_gene::Q" : [ 0.0 ],
+					"9t.func_gene::phase_offset" : [ 0.0 ],
+					"9t.func_gene::phase_amp" : [ 0.0 ],
+					"9t.func_gene::sine_offset" : [ 0.0 ],
+					"9t.func_gene::sine_amp" : [ 0.0 ],
+					"9t.func_gene::mod_sine_offset" : [ 0.0 ],
+					"9t.func_gene::mod_sine_amp" : [ 0.0 ],
+					"9t.func_gene::selector" : [ "all" ]
+				}
+
+			}
+,
+			"97" : 			{
+				"id" : 97,
+				"data" : 				{
+					"timescale_select" : [ "link" ],
+					"timescale_beat" : [ 4.0 ],
+					"steps" : [ 5 ],
+					"loop" : [ 0.0 ],
+					"9t.func_gene::phase_rate_ratio" : [ 2.0, 1.0 ],
+					"9t.func_gene::sine_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::mod_sine_rate_ratio" : [ 1.0, 1.0 ],
+					"9t.func_gene::amp" : [ 0.5 ],
+					"9t.func_gene::offset" : [ 0.56 ],
+					"9t.func_gene::Q" : [ 0.0 ],
+					"9t.func_gene::phase_offset" : [ 0.7 ],
+					"9t.func_gene::phase_amp" : [ 22.0 ],
+					"9t.func_gene::sine_offset" : [ 0.0 ],
+					"9t.func_gene::sine_amp" : [ 0.0 ],
+					"9t.func_gene::mod_sine_offset" : [ 0.0 ],
+					"9t.func_gene::mod_sine_amp" : [ 0.0 ],
+					"9t.func_gene::selector" : [ "all" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

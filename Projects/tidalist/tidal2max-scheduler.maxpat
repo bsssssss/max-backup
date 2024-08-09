@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1527.0, 66.0, 201.0, 164.0 ],
+		"rect" : [ 424.0, 374.0, 390.0, 363.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "",
+					"id" : "obj-2",
+					"index" : 1,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 160.0, 142.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-23",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -57,7 +70,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 38.0, 70.0, 121.0, 20.0 ],
+					"patching_rect" : [ 130.0, 184.0, 121.0, 20.0 ],
 					"text" : "scheme-schedulerV2"
 				}
 
@@ -357,7 +370,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 38.0, 94.0, 82.0, 20.0 ],
+					"patching_rect" : [ 130.0, 208.0, 82.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -377,8 +390,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 38.0, 46.0, 127.0, 20.0 ],
-					"text" : "udpreceive 7000 odot"
+					"patching_rect" : [ 130.0, 112.0, 124.0, 20.0 ],
+					"text" : "udpreceive 7400 odot"
 				}
 
 			}
@@ -394,6 +407,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
